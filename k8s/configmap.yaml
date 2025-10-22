@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: myapp-config
-data:
-  DATABASE_HOST: postgres-service
-  DATABASE_PORT: "5432"
-  DATABASE_NAME: mydb
