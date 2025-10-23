@@ -4,5 +4,5 @@ metadata:
   name: postgres-config
   namespace: myapp
 data:
-  POSTGRES_HOST: postgres
+  POSTGRES_HOST: postgres-headless
   POSTGRES_PORT: "5432"
