@@ -8,5 +8,5 @@ spec:
   selector:
     app: flask-api
   ports:
-    - port: 8000
-      targetPort: 8000
+    - port: 5000
+      targetPort: 5000

@@ -45,6 +45,7 @@ spec:
                 secretKeyRef:
                   name: postgres-secret
                   key: POSTGRES_DB
+
           resources:
             requests:
               cpu: "250m"

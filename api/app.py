@@ -5,7 +5,7 @@ import time
 
 app = Flask(__name__)
 
-DB_HOST = os.getenv("APP_DB_HOST", "postgres-headless")
+DB_HOST = os.getenv("APP_DB_HOST", "db")
 DB_PORT = os.getenv("APP_DB_PORT", "5432")
 DB_USER = os.getenv("APP_DB_USER", "postgres")
 DB_PASSWORD = os.getenv("APP_DB_PASSWORD", "password")
